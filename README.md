@@ -62,29 +62,21 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
+### Code Logic Preview, for details please check at Code, or contact me directly, even better hire me
 
-Now that you have successfully run the app, let's make changes!
+import { useAuth } from '../context/AuthContext';
+const { user, logout } = useAuth();  #Get data from ReactContext from Authcontext and display 
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+ <Text style={styles.subtitle}>Name:{user?.username}</Text>
+            <Text style={styles.subtitle}>Password:{user?.password}</Text>
+            <Text style={styles.subtitle}>Email:{user?.email}</Text>
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+ Login Screen Logic  import { useAuth } from '../context/AuthContext';
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+#Call loginscreen function at AuthContext  const result = await login(username, password);  Sign Up Screen Logic  #After insert all the field, call signup function to store all the data const result = await signup(username, password, email);
 
-## Congratulations! :tada:
+ 
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
 # Learn More
 Screen Shot And Video
