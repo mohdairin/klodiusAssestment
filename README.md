@@ -94,11 +94,8 @@ Screen Shot And Video
 <img width="373" height="819" alt="Create Accounta" src="https://github.com/user-attachments/assets/1a15fe48-cb9f-4114-9db2-40ff2ec1f5eb" />
 
 <img width="451" height="835" alt="Home Screen" src="https://github.com/user-attachments/assets/a9e1abfd-c59e-4d20-bac2-bde2b022f778" />
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
 
 
 
